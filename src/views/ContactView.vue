@@ -1,7 +1,12 @@
-<template>
-  <div class="about">
-    <h1 class="text-2xl">This is an about page</h1>
-  </div>
-</template>
+<script setup lang="ts">
+import LazyLoad from "@/components/LazyLoad.vue";
+import { defineAsyncComponent } from "vue";
 
-<style></style>
+const Contact = defineAsyncComponent(() => import("@/components/ContactForm.vue"));
+</script>
+
+<template>
+  <main>
+    <LazyLoad :component="Contact" componentName="Contact" />
+  </main>
+</template>

@@ -6,7 +6,7 @@
         <!-- Logo or Brand -->
         <div class="mb-6 md:mb-0">
           <h2 class="text-3xl font-bold">No Brand.</h2>
-          <p class="mt-2 text-gray-400">Building a better future with technology.</p>
+          <p class="mt-2 text-gray-400">Cook with me</p>
         </div>
 
         <!-- Links Section -->

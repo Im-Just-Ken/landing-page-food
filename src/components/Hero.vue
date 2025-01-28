@@ -32,7 +32,7 @@ export default defineComponent({
             {{ heroDescription }}
           </p>
           <button
-            class="text-white mt-7 rounded-full bg-red-700 px-9 py-2 hover:bg-red-600 motion-opacity-in-0 motion-translate-y-in-100 motion-delay-200"
+            class="text-white mt-7 rounded-full bg-red-700 px-9 py-2 hover:bg-red-600 motion-opacity-in-0 motion-translate-y-in-50 motion-delay-200"
             @click="toggleContent"
           >
             {{ showMore ? "Show Less" : "Show More" }}

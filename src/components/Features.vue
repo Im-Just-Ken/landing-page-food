@@ -9,13 +9,14 @@
           v-for="feature in features"
           :key="feature.id"
         >
-          <!-- Dim Overlay -->
           <div class="absolute inset-0 bg-black/50"></div>
 
           <!-- Content -->
-          <h3 class="relative text-white text-lg font-bold z-10">{{ feature.name }}</h3>
-          <p class="relative text-white text-base mt-2 z-10">{{ feature.price }}</p>
-          <button class="">Order Now</button>
+          <div class="absolute bottom-4 left-4 z-10 text-left">
+            <h3 class="text-white text-lg font-bold">{{ feature.name }}</h3>
+            <p class="text-white text-base mt-2">{{ feature.price }}</p>
+            <button class="bg-red-500 text-white px-4 py-1 rounded-full mt-4">Order Now</button>
+          </div>
         </li>
       </ul>
     </div>
@@ -41,6 +42,5 @@ export default {
 .feature-card {
   background-size: cover;
   background-position: center;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 </style>

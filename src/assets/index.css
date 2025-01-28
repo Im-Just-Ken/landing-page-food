@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@plugin "tailwindcss-motion";
+
+@keyframes up-down {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(30px);
+  }
+}
+
+/* Apply the animation to the image */
+.hero-img {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@layer {
+  .router-link-active {
+    @apply border-b-2 border-red-700 pb-2;
+  }
+}
+
+@layer {
+  button {
+    @apply cursor-pointer;
+  }
+}
+
+h2 {
+  font-family: "Amatic SC", sans-serif;
+}

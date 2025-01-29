@@ -23,9 +23,9 @@ export default defineComponent({
 <template>
   <section class="hero bg-gray-100 z-10">
     <div
-      class="w-full px-4 flex flex-col-reverse sm:flex-row md:flex-row lg:flex-row justify-between"
+      class="w-full max-w-screen-xl mx-auto flex flex-col-reverse sm:flex-row md:flex-row lg:flex-row justify-between"
     >
-      <div class="flex items-center">
+      <div class="flex items-center mx-3 sm:mx-3 md:mx-0 lg:mx-0">
         <div class="text-left">
           <h2
             class="text-4xl sm:text-5xl md:text-5xl lg:text-7xl w-96 motion-opacity-in-0 motion-translate-y-in-50 motion-delay-0"

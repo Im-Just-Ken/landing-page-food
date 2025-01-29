@@ -39,7 +39,9 @@ onMounted(() => {
 
 <template>
   <div ref="lazyLoadElement" class="relative w-full">
-    <div v-if="!isInView" class="flex justify-center items-center min-h-[200px] bg-gray-200"></div>
+    <div v-if="!isInView" class="flex justify-center items-center min-h-[200px] bg-gray-200">
+      Loading {{ props.componentName }}...
+    </div>
     <div v-show="isInView" class="transition-opacity duration-300 opacity-100">
       <component :is="props.component" />
     </div>

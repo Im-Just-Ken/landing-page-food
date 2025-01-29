@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { ref, onMounted, defineProps } from "vue";
+import { ref, onMounted, defineProps, type DefineComponent } from "vue";
 
 const props = defineProps({
   component: {
-    type: Object as () => Promise<any>,
+    type: Object as () => DefineComponent<{}, {}, any>,
     required: true,
   },
   componentName: {
@@ -38,8 +38,17 @@ onMounted(() => {
 </script>
 
 <template>
-  <div ref="lazyLoadElement">
-    <div v-if="!isInView" class="text-center py-72">Loading {{ props.componentName }}...</div>
-    <component v-else :is="props.component" />
+  <div ref="lazyLoadElement" class="relative w-full">
+    <div v-if="!isInView" class="flex justify-center items-center min-h-[200px] bg-gray-200"></div>
+    <div v-show="isInView" class="transition-opacity duration-300 opacity-100">
+      <component :is="props.component" />
+    </div>
   </div>
 </template>
+
+<style scoped>
+/* Optionally add custom transition effects */
+.component {
+  transition: opacity 0.3s ease-in-out;
+}
+</style>

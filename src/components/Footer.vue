@@ -19,12 +19,10 @@
             <h3 class="font-semibold text-lg mb-2">Quick Links</h3>
             <ul>
               <li>
-                <a href="/home" class="text-black hover:text-red-700 transition-colors">Home</a>
+                <a href="/" class="text-black hover:text-red-700 transition-colors">Home</a>
               </li>
               <li>
-                <a href="/features" class="text-black hover:text-red-700 transition-colors"
-                  >Features</a
-                >
+                <a href="/" class="text-black hover:text-red-700 transition-colors">Features</a>
               </li>
               <li>
                 <a href="/contact" class="text-black hover:text-red-700 transition-colors"
@@ -40,18 +38,24 @@
             <h3 class="font-semibold text-lg mb-2">Legal</h3>
             <ul>
               <li>
-                <a href="/terms" class="text-black hover:text-red-700 transition-colors"
+                <a href="" class="text-black hover:text-red-700 transition-colors"
                   >Terms of Service</a
                 >
               </li>
               <li>
-                <a href="/privacy" class="text-black hover:text-red-700 transition-colors"
+                <a href="" class="text-black hover:text-red-700 transition-colors"
                   >Privacy Policy</a
                 >
               </li>
             </ul>
           </div>
         </div>
+      </div>
+
+      <div class="mt-10 text-center md:text-left">
+        <p class="text-black text-sm motion-opacity-in-0 motion-translate-y-in-50 motion-delay-0">
+          &copy; 2025 No Brand. All rights reserved.
+        </p>
       </div>
     </div>
   </footer>

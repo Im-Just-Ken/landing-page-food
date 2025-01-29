@@ -101,7 +101,7 @@ export default defineComponent({
         <img
           src="/hero-img.png"
           alt=""
-          class="h-[300px] sm:h-[250px] md:h-[400px] lg:h-[526px] my-20 motion-opacity-in-0 motion-translate-y-in-10 motion-delay-100"
+          class="h-[300px] sm:h-[250px] md:h-[400px] lg:h-[526px] my-20 motion-opacity-in-0 motion-translate-y-in-10 motion-delay-100 hero-img"
         />
       </div>
     </div>

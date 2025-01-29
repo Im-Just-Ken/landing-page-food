@@ -1,5 +1,5 @@
 <template>
-  <section class="features my-15">
+  <section class="features my-15 mt-20 sm:mt-20 md:mt-32 lg:mt-32">
     <h2 class="text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-8">Our Features</h2>
     <div class="w-full max-w-[1440px] mx-auto px-4 sm:px-6 flex justify-center">
       <ul class="w-full flex flex-wrap justify-center gap-6">

@@ -10,5 +10,9 @@ const Features = defineAsyncComponent(() => import("@/components/Features.vue"))
   <main>
     <LazyLoad :component="Hero" componentName="Hero" />
     <LazyLoad :component="Features" componentName="Features" />
+    <LazyLoad
+      :component="defineAsyncComponent(() => import('@/components/Testimonial.vue'))"
+      componentName="Testimonials"
+    />
   </main>
 </template>

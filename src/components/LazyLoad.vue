@@ -49,7 +49,6 @@ onMounted(() => {
 </template>
 
 <style scoped>
-/* Optionally add custom transition effects */
 .component {
   transition: opacity 0.3s ease-in-out;
 }

@@ -1,4 +1,5 @@
-<!-- Loader.vue -->
+<!--!! Ddicontinue muna -->
+
 <template>
   <div class="loader-overlay">
     <div class="loader">

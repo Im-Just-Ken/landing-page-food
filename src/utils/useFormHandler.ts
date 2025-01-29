@@ -1,7 +1,7 @@
 import { ref } from "vue";
 import { validateRequired, validateEmail } from "@/utils/validate";
 
-// Use this composable to handle form data and validation
+// composable for form data and validation
 export const useFormHandler = () => {
   const name = ref("");
   const email = ref("");
@@ -14,7 +14,7 @@ export const useFormHandler = () => {
     errors.value = { name: "", email: "" }; // Reset errors
     let isValid = true;
 
-    // Validate required fields
+    // Validationss
     const nameError = validateRequired(name.value, "Name");
     if (nameError) {
       errors.value.name = nameError;

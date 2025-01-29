@@ -17,7 +17,7 @@
 
 @layer {
   .router-link-active {
-    @apply border-b-2 border-red-700 pb-2;
+    @apply border-b-2 border-red-700 pb-2  duration-300 ease-in-out;
   }
 }
 

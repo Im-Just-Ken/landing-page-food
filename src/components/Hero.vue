@@ -22,12 +22,17 @@ export default defineComponent({
 
 <template>
   <section class="hero bg-gray-100 z-10">
-    <div class="container mx-auto flex justify-between">
+    <div
+      class="container mx-auto flex flex-col sm:flex-row md:flex-row lg:flex-row justify-between"
+    >
       <div class="flex items-center">
         <div class="text-left">
-          <h2 class="text-7xl w-96 motion-opacity-in-0 motion-translate-y-in-50 motion-delay-0">
+          <h2
+            class="text-3xl sm:text-4xl md:text-5xl lg:text-7xl w-96 motion-opacity-in-0 motion-translate-y-in-50 motion-delay-0"
+          >
             {{ welcomeMessage }}
           </h2>
+
           <p class="mt-5 text-xl motion-opacity-in-0 motion-translate-y-in-100 motion-delay-100">
             {{ heroDescription }}
           </p>
@@ -47,9 +52,9 @@ export default defineComponent({
       </div>
       <div>
         <img
-          src="/public/hero-img.png"
+          src="/hero-img.png"
           alt=""
-          class="h-[526px] my-20 motion-opacity-in-0 motion-translate-y-in-10 motion-delay-100"
+          class="lg:h-[526px] my-20 motion-opacity-in-0 motion-translate-y-in-10 motion-delay-100"
         />
       </div>
     </div>

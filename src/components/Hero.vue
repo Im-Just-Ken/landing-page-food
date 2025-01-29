@@ -23,7 +23,7 @@ export default defineComponent({
 <template>
   <section class="hero bg-gray-100 z-10">
     <div
-      class="container mx-auto px-4 flex flex-col-reverse sm:flex-row md:flex-row lg:flex-row justify-between"
+      class="container mx-auto flex flex-col-reverse sm:flex-row md:flex-row lg:flex-row justify-between"
     >
       <div class="flex items-center">
         <div class="text-left">

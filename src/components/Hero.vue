@@ -23,7 +23,7 @@ export default defineComponent({
 <template>
   <section class="hero bg-gray-100 z-10">
     <div
-      class="w-full max-w-screen-xl mx-auto px-4 flex flex-col-reverse sm:flex-row md:flex-row lg:flex-row justify-between"
+      class="w-full max-w-screen-xl mx-auto px-4 flex flex-col-reverse sm:flex-row md:flex-row lg:flex-row justify-between py-6 sm:py-6 md:py-0 lg:py-0"
     >
       <div class="flex items-center">
         <div class="text-left">

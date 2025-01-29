@@ -34,7 +34,7 @@ export default defineComponent({
           </h2>
 
           <h1
-            class="mt-5 text-xl sm:text-base md:text-base lg:text-xl motion-opacity-in-0 motion-translate-y-in-100 motion-delay-100"
+            class="mt-5 text-xl sm:text-base md:text-base lg:text-xl motion-opacity-in-0 motion-translate-y-in-100 motion-delay-100 w-72 sm:w-72 md:w-auto lg:w-auto"
           >
             {{ heroDescription }}
           </h1>

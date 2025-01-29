@@ -114,7 +114,7 @@ export default defineComponent({
 
 .modal-content {
   position: relative;
-  max-width: 400px;
+  max-width: 350px;
   width: 100%;
   background: white;
   border-radius: 10px;

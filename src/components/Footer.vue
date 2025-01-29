@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-white text-black py-12">
-    <div class="container mx-auto px-6">
+    <div class="w-full max-w-screen-xl mx-auto px-4 sm:px-6">
       <!-- Footer Top Section -->
       <div class="flex flex-col md:flex-row justify-between items-center md:items-start">
         <!-- Logo or Brand -->

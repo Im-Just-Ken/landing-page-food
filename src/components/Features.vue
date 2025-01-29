@@ -1,8 +1,8 @@
 <template>
   <section class="features my-15">
-    <h2 class="text-center text-7xl mb-8">Our Features</h2>
-    <div class="container mx-auto flex justify-center">
-      <ul class="flex flex-wrap justify-center gap-6">
+    <h2 class="text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-8">Our Features</h2>
+    <div class="w-full max-w-[1440px] mx-auto px-4 sm:px-6 flex justify-center">
+      <ul class="w-full flex flex-wrap justify-center gap-6">
         <li
           class="feature-card relative bg-cover bg-center w-[300px] h-76 rounded-xl p-4 shadow-lg overflow-hidden flex-col motion-opacity-in-0 motion-translate-y-in-50 motion-delay-200"
           :style="{ backgroundImage: `url(${feature.image})` }"

@@ -2,7 +2,7 @@ import { defineStore } from "pinia";
 import { ref } from "vue";
 
 export const useHeroStore = defineStore("heroStore", () => {
-  const welcomeMessage = ref<string>("Welcome to Our Amazing Landing Page");
+  const welcomeMessage = ref<string>("Welcome to Our Amazing Page");
   const heroDescription = ref<string>(
     "We offer incredible features that will make your life easier."
   );

@@ -23,12 +23,12 @@ export default defineComponent({
 <template>
   <section class="hero bg-gray-100 z-10">
     <div
-      class="container mx-auto flex flex-col-reverse sm:flex-row md:flex-row lg:flex-row justify-between"
+      class="container mx-auto px-4 flex flex-col-reverse sm:flex-row md:flex-row lg:flex-row justify-between"
     >
       <div class="flex items-center">
         <div class="text-left">
           <h2
-            class="text-5xl sm:text-5xl md:text-5xl lg:text-7xl w-96 motion-opacity-in-0 motion-translate-y-in-50 motion-delay-0"
+            class="text-4xl sm:text-5xl md:text-5xl lg:text-7xl w-96 motion-opacity-in-0 motion-translate-y-in-50 motion-delay-0"
           >
             {{ welcomeMessage }}
           </h2>

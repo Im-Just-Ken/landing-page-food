@@ -8,7 +8,7 @@ export default defineComponent({
   setup() {
     const heroStore = useHeroStore();
     const { welcomeMessage, heroDescription, showMore } = storeToRefs(heroStore);
-    const showModal = ref(false); // To control the modal visibility
+    const showModal = ref(false);
 
     onMounted(() => {
       showMore.value = false;
@@ -16,7 +16,6 @@ export default defineComponent({
 
     const { toggleContent } = heroStore;
 
-    // Toggle the modal visibility
     const toggleModal = () => {
       showModal.value = !showModal.value;
     };
@@ -57,7 +56,6 @@ export default defineComponent({
             class="modal-overlay fixed inset-0 bg-black/50 bg-opacity-50 flex justify-center items-center z-50"
           >
             <div class="modal-content bg-white p-8 rounded-xl shadow-lg w-11/12 max-w-lg relative">
-              <!-- New close button design -->
               <button
                 @click="toggleModal"
                 class="absolute top-4 right-4 text-xl text-gray-600 hover:text-gray-800 focus:outline-none"
@@ -85,7 +83,6 @@ export default defineComponent({
                   we offer!
                 </p>
 
-                <!-- Using v-show for toggling visibility of the text -->
                 <div v-show="showMore">
                   <p class="mt-3 text-lg sm:text-xl md:text-xl lg:text-2xl max-w-lg">
                     More details about our product. Here we provide more description of the features

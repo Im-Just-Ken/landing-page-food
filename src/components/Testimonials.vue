@@ -11,7 +11,9 @@ onMounted(() => {
 
 <template>
   <section class="my-10 max-w-7xl mx-auto px-4 mt-20 sm:mt-20 md:mt-32 lg:mt-32">
-    <h2 class="text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-6">
+    <h2
+      class="text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-6 motion-opacity-in-0 motion-translate-y-in-50 motion-delay-0"
+    >
       Customer Testimonials
     </h2>
 
@@ -20,7 +22,7 @@ onMounted(() => {
       {{ testimonialStore.error }}
     </div>
 
-    <div v-else class="masonry">
+    <div v-else class="masonry motion-opacity-in-0 motion-translate-y-in-50 motion-delay-0">
       <div
         v-for="testimonial in testimonialStore.testimonials"
         :key="testimonial.id"

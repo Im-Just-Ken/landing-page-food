@@ -33,7 +33,7 @@ export default {
     <div
       class="container mx-auto px-6 flex flex-col md:flex-row items-center justify-center gap-10"
     >
-      <!-- Google Maps (Responsive) -->
+      <!-- Google Maps -->
       <div class="w-full md:w-1/2 motion-opacity-in-0 motion-translate-y-in-50 motion-delay-0">
         <div class="aspect-w-16 aspect-h-9 rounded-xl overflow-hidden shadow-lg">
           <iframe

@@ -17,7 +17,7 @@
               <span class="text-base text-white font-normal">from</span> ₱{{ feature.price }}
             </p>
             <button
-              class="bg-red-600 hover:bg-red-500 px-4 py-1 rounded-full mt-4 text-xl"
+              class="bg-red-600 hover:bg-red-500 px-4 py-1 rounded-full mt-4 text-xl motion-opacity-in-0 motion-translate-y-in-50 motion-delay-200 transition-all duration-300 ease-in-out transform"
               @click="console.log(feature.id)"
             >
               Order Now

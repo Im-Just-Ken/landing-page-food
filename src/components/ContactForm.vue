@@ -25,7 +25,7 @@ export default {
 <template>
   <section class="contact-form py-16 bg-gray-100">
     <h2
-      class="text-center text-7xl font-semibold mb-10 motion-opacity-in-0 motion-translate-y-in-50 motion-delay-0"
+      class="text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold mb-10 motion-opacity-in-0 motion-translate-y-in-50 motion-delay-0"
     >
       Contact Us
     </h2>
@@ -77,7 +77,7 @@ export default {
           <div class="mb-6">
             <button
               type="submit"
-              class="w-full p-3 bg-blue-500 text-white rounded-full hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              class="w-full p-3 bg-blue-500 text-white rounded-full hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 motion-opacity-in-0 motion-translate-y-in-50 motion-delay-200 transition-all duration-300 ease-in-out transform"
             >
               Submit
             </button>

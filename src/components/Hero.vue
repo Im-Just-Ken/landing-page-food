@@ -26,7 +26,7 @@ export default defineComponent({
       class="w-full max-w-[1440px] mx-auto px-4 sm:px-6 flex flex-col-reverse sm:flex-col md:flex-row lg:flex-row justify-between"
     >
       <div class="flex items-center w-full md:w-1/2">
-        <div class="text-left">
+        <div class="text-left pb-12 sm:pb-0 md:pb-0 lg:pb-0">
           <h2
             class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl w-full md:w-96 motion-opacity-in-0 motion-translate-y-in-50 motion-delay-0"
           >
@@ -45,7 +45,7 @@ export default defineComponent({
             {{ showMore ? "Show Less" : "Show More" }}
           </button>
           <div v-if="showMore" class="additional-content">
-            <p class="mt-3 text-xl max-w-lg">
+            <p class="mt-3 text-lg sm:text-xl md:text-xl lg:text-2xl max-w-lg">
               This is some additional content about our amazing product. Learn more about what we
               offer!
             </p>

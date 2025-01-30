@@ -1,5 +1,6 @@
 Features
 
+Publish page: https://landingfoodpage777.netlify.app/
 
 1. Intersection Observer & Lazy Loading
 

@@ -10,6 +10,8 @@ Intersection Observer API is used to load components when they enter the viewpor
 
 Lazy loading images and components to improve performance and user experience.
 
+Threshold is set to 0.5, meaning components load when 50% visible in the viewport.
+
 2. Animations
 
 Smooth motion effects using Tailwind CSS animations.

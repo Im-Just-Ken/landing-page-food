@@ -1,4 +1,4 @@
-<!--!! Ddicontinue muna -->
+<!--!! Discontinued -->
 
 <template>
   <div class="loader-overlay">

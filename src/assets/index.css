@@ -10,7 +10,6 @@
   }
 }
 
-/* Apply the animation to the image */
 .hero-img {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }

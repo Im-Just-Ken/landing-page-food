@@ -1,6 +1,5 @@
 Features
 
-This project is a Vue.js-based web application incorporating modern frontend development techniques to enhance performance, interactivity, and responsiveness.
 
 1. Intersection Observer & Lazy Loading
 
